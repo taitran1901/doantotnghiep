@@ -12,7 +12,7 @@ class Welcome extends StatelessWidget {
             //logo
             Expanded(
               child: Container(
-                
+
               )),
             //slide
             Expanded(
@@ -33,7 +33,7 @@ class Welcome extends StatelessWidget {
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
                             child: Container(
                               padding: const EdgeInsets.symmetric(horizontal: 80,vertical: 10),
-                              child: Text("Dang ky",style: TextStyle(color: Color.fromARGB(255, 255, 255, 255)),)),
+                              child: Text("Dang ky ngay lap tuc",style: TextStyle(color: Color.fromARGB(255, 255, 255, 255)),)),
                             onPressed: (){},
                           ),
                         ],
